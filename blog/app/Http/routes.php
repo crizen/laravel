@@ -11,6 +11,8 @@
 |
 */
 Route::get('/', 'PageController@index');
+Route::get('/impressum', 'PageController@impressum');
+Route::get('/kontakt', 'PageController@kontakt');
 
 /*
 |--------------------------------------------------------------------------
