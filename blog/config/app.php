@@ -204,4 +204,5 @@ return [
 
     ],
 
+    'name' => 'Laravel Tutorial'
 ];

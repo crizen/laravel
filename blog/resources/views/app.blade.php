@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Sticky Footer Navbar Template for Bootstrap</title>
+    <title><?php echo Config::get('app.name') ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="public/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#"><?php echo Config::get('app.name') ?></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
